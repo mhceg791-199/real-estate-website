@@ -1,0 +1,43 @@
+:root {
+  --mainColor: #182c21;
+  --textColor: white;
+  --lightColor: #e0d8c2;
+  --mainGold: #C5A363;
+}
+
+body {
+  background-color: var(--mainColor);
+  background-image: url('/home/black.png');
+  background-repeat: repeat; 
+  background-size: 10%;
+  background-position: top left; 
+}
+
+
+::selection {
+    background-color: var(--lightColor);
+    color: var(--mainColor);
+}
+
+.text-header {
+  font-size: 49px;
+}
+
+.text-large {
+  font-size: 38px;
+}
+
+
+.swiper-pagination-bullet {
+  background: var(--mainColor) !important;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  margin-top: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--mainColor) !important;
+  width: 12px;
+  height: 12px;
+}
