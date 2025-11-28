@@ -80,7 +80,7 @@ export function SidebarWithBurgerMenu() {
                   <Typography
                     onClick={(e) => {
                       e.stopPropagation(); // Prevent the Accordion from opening
-                      navigate("/home");
+                      navigate("/");
                       setIsDrawerOpen(false);
                     }}
                     color="white"
@@ -192,7 +192,8 @@ export function SidebarWithBurgerMenu() {
                 </AccordionHeader>
               </ListItem>
             </Accordion> */}
-            <Accordion open={open === 1}>
+            {/* ...................................... */}
+            {/* <Accordion open={open === 1}>
               {" "}
               <ListItem
                 className={`p-0 item hover:bg-transparent mainItem ${
@@ -223,8 +224,8 @@ export function SidebarWithBurgerMenu() {
                   </Typography>
                 </AccordionHeader>
               </ListItem>
-            </Accordion>
-
+            </Accordion> */}
+{/* ...................................... */}
             {/* <Accordion open={open === 1}>
               {" "}
               <ListItem

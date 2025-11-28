@@ -27,8 +27,8 @@ export default function InvestmentApproach() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-semibold leading-tight mb-6">
-            Investment & Development <span className="text-mainGold">Approach</span>
+          <h2 className="heading font-semibold leading-tight mb-6">
+            Investment & <br/> Development <span className="text-mainGold">Approach</span>
           </h2>
 
           <p className="text-lightColor paragraph leading-relaxed">

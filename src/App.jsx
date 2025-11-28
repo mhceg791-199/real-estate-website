@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Layout from "./Layout";
 import About from "./pages/about/about";
-import Projects from "./pages/projects/projects";
+// import Projects from "./pages/projects/projects";
 import ProjectsDetails from "./pages/projectsDetails/projectsDetails";
 import ScrollToTopButton from "./components/shared/ScrollToTopButton/ScrollToTopButton";
 import Services from "./pages/Services/Services";
@@ -28,7 +28,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="who-we-are" element={<About />} />
                 <Route path="services" element={<Services />} />
-                <Route path="projects" element={<Projects />} />
+                {/* <Route path="projects" element={<Projects />} /> */}
                 <Route path="projects/:slug" element={<ProjectsDetails />} />
                 <Route path="career" element={<Career />} />
                 <Route path="contact-us" element={<ContactUs />} />

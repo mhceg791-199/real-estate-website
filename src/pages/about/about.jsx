@@ -20,7 +20,7 @@ function About() {
         secondWord="Story"
         paragraphs={paragraphs}
         particleColors={["#e0d8c2", "#e0d8c2"]}
-        height="h-[85vh] md:h-[65vh]"
+        height="h-[55vh] md:h-[65vh]"
       />
       <MissionVisionSection />
       <OurValues />

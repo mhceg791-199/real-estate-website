@@ -5,7 +5,7 @@ import logo from "../../assets/logo/logo2.webp";
 const linksTop = [
   { to: "/who-we-are", label: "Who We Are" },
   { to: "/services", label: "Services" },
-  { to: "/projects", label: "Projects" },
+  // { to: "/projects", label: "Projects" },
   { to: "/career", label: "Careers" },
   // { to: "/News", label: "News" },
 ];
@@ -21,7 +21,7 @@ function Footer() {
     <footer className="grid md:grid-cols-10 grid-cols-1 px-5 py-3 gap-5 bg-mainColor text-lightColor">
       
       <div className="md:col-span-2 flex justify-center items-center lg:px-8">
-        <Link to="/home" className="block">
+        <Link to="/" className="block">
           <img
             className="object-contain w-[75%] md:w-full m-auto"
             src={logo}

@@ -13,7 +13,7 @@ function GlobalDataDisplay() {
       }}
     >
       <div className="container mx-auto px-6 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 md:gap-16 items-center">
           {/* Left Side */}
           <div className="space-y-10 lg:pr-12">
             <div className="space-y-4">
