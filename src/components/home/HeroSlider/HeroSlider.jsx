@@ -81,7 +81,7 @@ const DynamicPerspectiveHero = () => {
             {/* الخلفية */}
             <div className="absolute inset-0 z-0">
                 <img 
-                    src="/images/dorchester2.jpg"
+                    src="/images/dorchester2.webp"
                     alt="Massive Structural Project" 
                     className="bg-image w-full h-full object-cover opacity-60" 
                     style={{ transform: 'scale(1.0)' }} 

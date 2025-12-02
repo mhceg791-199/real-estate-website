@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const projectImages = [
-  "/images/dorchester.jpg",
-  "/images/dorchester2.jpg",
-  "/images/dorchester3.jpg",
+  "/images/dorchester.webp",
+  "/images/dorchester2.webp",
+  "/images/dorchester3.webp",
 ];
 
 const ImageSlider = () => {
