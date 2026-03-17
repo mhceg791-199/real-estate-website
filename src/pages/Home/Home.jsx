@@ -22,7 +22,6 @@ function Home() {
       <OverviewSection />
 
       <div className="px-6 lg:px-20 my-10">
-        {/* px-6 للشاشات الصغيرة, lg:px-20 للشاشات الكبيرة */}
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}

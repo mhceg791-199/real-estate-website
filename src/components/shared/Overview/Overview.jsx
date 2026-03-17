@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SectionHeader from "../SectionHeaders/SectionHeader";
 import CardsSlider from "./CardsSlider";
 
@@ -16,18 +17,24 @@ const OverviewSection = () => {
           <SectionHeader firstWord="Overview" />
         </h2>
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          Mosaic Real Estate is the real estate arm of Mosaic Holding
-          Corporation (MHC). We acquire, develop, and reposition distinctive
-          properties across North America, Europe, and the Middle East — from
-          landmark towers to high-potential sites.
+          Mosaic Real Estate is the real estate arm of{" "}
+          <Link
+            to="https://mosaicholding.com/"
+            target="_blank"
+            className="font-semibold"
+          >
+            Mosaic Holding Corporation
+          </Link>{" "}
+          (MHC). We acquire, develop, and reposition distinctive properties
+          across North America, Europe, and the Middle East — from landmark
+          towers to high-potential sites.
         </p>
 
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          Empowered by MHC’s integrated ecosystem of architecture, engineering,
-          and investment subsidiaries, we turn strategic real estate
-          opportunities into high-value, design-driven destinations.
+          We turn strategic real estate opportunities into high-value,
+          design-driven destinations.
         </p>
-        <CardsSlider/>
+        <CardsSlider />
       </div>
     </section>
   );
