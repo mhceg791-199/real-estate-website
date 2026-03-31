@@ -3,7 +3,13 @@ import Paragraph from "../../shared/Paragraph/Paragraph";
 import SectionHeader from "../../shared/SectionHeaders/SectionHeader";
 
 function ReadyToJoin() {
-
+  const scrollToApplication = () => {
+    const element = document.getElementById("application-form-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+  
   return (
     <section className="relative md:py-12 overflow-hidden text-lightColor">
       <motion.div
@@ -29,15 +35,10 @@ function ReadyToJoin() {
           <SectionHeader firstWord="Ready to " secondWord="Build Tomorrow?" />
         </div>
 
-        <Paragraph
-          p="If you’re driven by excellence and eager to leave your mark on the built environment, explore our opportunities. At Mosaic Real Estate, we invest in your potential, empower your ambition, and champion your journey to redefine engineering excellence."
-        />
+        <Paragraph p="If you’re driven by excellence and eager to leave your mark on the built environment, explore our opportunities. At Mosaic Real Estate, we invest in your potential, empower your ambition, and champion your journey to redefine engineering excellence." />
 
         <div className="text-center mt-8 mb-2">
-          <button
-            // onClick={openModal}
-            className="btn-boder-white"
-          >
+          <button onClick={scrollToApplication} className="btn-boder-white">
             JOIN OUR TEAM
           </button>
           {/* <CareerModal /> */}
